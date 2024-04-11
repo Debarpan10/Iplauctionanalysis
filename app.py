@@ -6,13 +6,6 @@ import seaborn as sns
 import altair as alt
 from PIL import Image
 st.title("TATA IPL 2024 AUCTION ANALYSIS")
-img= Image.open("C://Users//user//Downloads//iplauctionjpg-1701350288696.jpeg")
-st.image(
-    img,
-    caption="All Sold and Unsold players analysis of TATA IPL 2024",
-    width=400,
-    channels="RGB"
-)
 st.audio("C://Users//user//Downloads//Ipl Theme 2024-(PagalSongs.Com.IN).mp3")
 st.markdown("Welcome to all the Cricket Lovers!!This is our website where we have analyzed thoruoghly the IPL 2024 Auction and extracted useful insights")
 st.write('_Sounds_ :blue[cool] :sunglasses:')
